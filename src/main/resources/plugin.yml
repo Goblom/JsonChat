@@ -1,0 +1,9 @@
+main: codes.goblom.jsonchat.JSONChatPlugin
+name: JSONChat
+version: 2.0
+author: Goblom
+load: startup
+
+# This is modified in the onEnable of JSONChatPlugin
+commands:
+  jsonchat:

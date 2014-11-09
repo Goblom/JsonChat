@@ -1,0 +1,7 @@
+Format:
+    Name: '<{name}> '
+    Tooltip:
+    - 'UUID: {uuid}'
+Setting:
+    Format-URL: true
+    Color: true
