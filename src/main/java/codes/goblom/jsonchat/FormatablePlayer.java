@@ -30,6 +30,9 @@ public class FormatablePlayer {
     @Setter
     private List<String> tooltip;
     
+    @Setter
+    protected ClickEvent clickEvent;
+    
     FormatablePlayer(Player player) {
         this.uniqueId = player.getUniqueId();
     }
@@ -58,6 +61,10 @@ public class FormatablePlayer {
         }
         
         return modify(getBukkit(), tooltip).output;
+    }
+    
+    public boolean hasClickEvent() {
+        return clickEvent != null;
     }
     
     // ********************************
