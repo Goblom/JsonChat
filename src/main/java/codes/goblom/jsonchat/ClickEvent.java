@@ -19,7 +19,7 @@ public class ClickEvent {
     private final ClickAction clickAction;
     
     @Getter
-    private String value;
+    private final String value;
     
     public static enum ClickAction {
         RUN_COMMAND,
