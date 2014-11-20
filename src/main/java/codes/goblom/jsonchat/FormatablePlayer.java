@@ -12,6 +12,7 @@ import java.util.UUID;
 import lombok.Getter;
 import lombok.Setter;
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 
 /**
@@ -32,6 +33,10 @@ public class FormatablePlayer {
     
     @Setter
     protected ClickEvent clickEvent;
+    
+    @Getter
+    @Setter
+    private ChatColor chatColor = ChatColor.WHITE;
     
     FormatablePlayer(Player player) {
         this.uniqueId = player.getUniqueId();
