@@ -4,4 +4,6 @@ Format:
     - 'UUID: {uuid}'
 Setting:
     Format-URL: true
+    
+    #Optionally you could give the player the "jsonchat.color" permission node
     Color: true

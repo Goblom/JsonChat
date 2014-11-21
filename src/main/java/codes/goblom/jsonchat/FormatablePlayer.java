@@ -10,6 +10,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.UUID;
 import lombok.Getter;
+import lombok.NonNull;
 import lombok.Setter;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -25,10 +26,12 @@ public class FormatablePlayer {
     
     @Getter
     @Setter
+    @NonNull
     private String nameFormat;
     
     @Getter
     @Setter
+    @NonNull
     private List<String> tooltip;
     
     @Setter
