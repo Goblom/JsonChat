@@ -1,6 +1,6 @@
 main: codes.goblom.jsonchat.JSONChatPlugin
 name: JSONChat
-version: 2.0
+version: 2.1
 author: Goblom
 load: startup
 
